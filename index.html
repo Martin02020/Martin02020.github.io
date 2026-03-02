@@ -1,22 +1,117 @@
 <!doctype html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+    <title>Martin Dobiš | Specialista na životní a úrazové pojištění</title>
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <!-- SEO meta -->
+    <meta name="description" content="Martin Dobiš – specialista na životní a úrazové pojištění, pojištění pracovní neschopnosti a zajištění hypotéky. Rodinné pojištění a dětská pojistka na míru. Konzultace zdarma." />
+    <meta name="keywords" content="Martin Dobiš, martin dobis, Martin Dobiš pojištění, životní pojištění, úrazové pojištění, pojištění pracovní neschopnosti, zajištění hypotéky, pojištění na hypotéku, rodinné pojištění, pojištění dětí, dětská pojistka" />
+    <meta name="author" content="Martin Dobiš" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:title" content="Martin Dobiš | Specialista na životní a úrazové pojištění" />
+    <meta property="og:description" content="Čtu pojistné podmínky místo vás. Najdu, co skutečně chrání vaši rodinu — a co jen tak vypadá. Konzultace zdarma." />
+    <meta property="og:locale" content="cs_CZ" />
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:title" content="Martin Dobiš | Specialista na životní a úrazové pojištění" />
+    <meta name="twitter:description" content="Čtu pojistné podmínky místo vás. Konzultace zdarma." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.svg" />
+    <meta name="theme-color" content="#0a1628" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Structured data: FinancialService -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FinancialService",
+      "name": "Martin Dobiš – pojišťovací poradenství",
+      "description": "Specialista na životní a úrazové pojištění a investice. Osobní přístup, detailní analýza pojistných podmínek, konzultace zdarma.",
+      "telephone": "+420744193713",
+      "email": "martin.dobis@zp.metlife.cz",
+      "areaServed": { "@type": "Country", "name": "Česká republika" },
+      "employee": {
+        "@type": "Person",
+        "name": "Martin Dobiš",
+        "jobTitle": "Specialista na životní a úrazové pojištění",
+        "telephone": "+420744193713",
+        "email": "martin.dobis@zp.metlife.cz"
+      },
+      "serviceType": [
+        "Životní pojištění", "Úrazové pojištění", "Pojištění pracovní neschopnosti",
+        "Zajištění hypotéky", "Pojištění na hypotéku", "Rodinné pojištění",
+        "Pojištění dětí", "Dětská pojistka", "Pojištění invalidity",
+        "Pojištění vážných nemocí", "Investice", "Penzijní připojištění"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "name": "Nezávazná analýza pojištění",
+        "price": "0",
+        "priceCurrency": "CZK",
+        "description": "Prvotní analýza pojistné situace zcela zdarma a bez závazků."
+      }
+    }
+    </script>
+
+    <!-- FAQPage structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Co je životní pojištění a proč ho potřebuji?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Životní pojištění finančně ochraňuje vaši rodinu pro případ, že zemřete nebo se stanete invalidním. Pokud máte hypotéku, děti nebo partner závisí na vašem příjmu, životní pojištění zajistí, že budou mít na splátky a běžný život i bez vás. Martin Dobiš pomáhá nastavit výši pojistné částky tak, aby odpovídala skutečným potřebám — ne jen doporučení pojišťovny." }
+        },
+        {
+          "@type": "Question",
+          "name": "Co je úrazové pojištění a jak se liší od životního?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Úrazové pojištění kryje finanční ztráty způsobené úrazem — zlomeniny, trvalé následky nebo smrt úrazem. Na rozdíl od životního pojištění se nevztahuje na nemoci. Vhodná kombinace životního a úrazového pojištění pokrývá nejširší spektrum rizik a je základem solidního zajištění rodiny." }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak funguje pojištění pracovní neschopnosti?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Pojištění pracovní neschopnosti vyplácí denní dávku, pokud nemůžete pracovat kvůli nemoci nebo úrazu. Státní nemocenská dávka je výrazně nižší než váš běžný příjem — pojištění tento rozdíl dorovná a zajistí, že budete schopni platit hypotéku a běžné výdaje i v době, kdy nepracujete." }
+        },
+        {
+          "@type": "Question",
+          "name": "Co je zajištění hypotéky pojištěním?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Zajištění hypotéky pojištěním znamená, že pokud zemřete, stanete se invalidním nebo ztratíte příjem kvůli nemoci, pojišťovna zaplatí splátky nebo doplatí celý zůstatek hypotéky. Bez tohoto zajištění riskujete, že vaše rodina přijde o domov. Martin Dobiš nastaví pojistné krytí přesně na výši a délku vaší hypotéky." }
+        },
+        {
+          "@type": "Question",
+          "name": "Co je rodinné pojištění a pojištění dětí?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Rodinné pojištění chrání celou domácnost — rodiče i děti — v rámci jedné nebo více smluv. Dětská pojistka kryje úrazy, vážné nemoci a trvalé následky u dětí. Důležité je nastavit pojistné částky realisticky a přečíst podmínky — ne každá dětská pojistka platí za všechna zranění nebo nemoci, jak by se mohlo zdát." }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak mi může pomoci pojišťovací poradce Martin Dobiš?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Martin Dobiš je specialista na životní a úrazové pojištění a investice. Přečte pojistné podmínky místo vás, porovná produkty různých pojišťoven a navrhne řešení přesně na míru vaší situaci — rodině, hypotéce a příjmům. První konzultace je zdarma a bez závazků. Kontakt: +420 744 193 713, martin.dobis@zp.metlife.cz." }
+        },
+        {
+          "@type": "Question",
+          "name": "Kolik stojí konzultace s pojišťovacím poradcem?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Prvotní analýza a konzultace s Martinem Dobišem je zcela zdarma a bez závazků. Poradce je odměňován provizí od pojišťovny až při sjednání smlouvy — klient za poradenství neplatí nic." }
+        }
+      ]
+    }
+    </script>
   </head>
 
   <body>
